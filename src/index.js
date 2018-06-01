@@ -64,10 +64,10 @@ const RootDIV = glamorous.div({
 const TextDIV = glamorous.div({
   display: 'inline-block',
   verticalAlign: 'top',
-  paddingLeft: '10px',
 })
 
 const avatarStyle = {
   display: 'inline-block',
   verticalAlign: 'top',
+  marginRight: '10px',
 }

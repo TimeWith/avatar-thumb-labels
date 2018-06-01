@@ -128,12 +128,12 @@ var RootDIV = _glamorous2.default.div({
 
 var TextDIV = _glamorous2.default.div({
   display: 'inline-block',
-  verticalAlign: 'top',
-  paddingLeft: '10px'
+  verticalAlign: 'top'
 });
 
 var avatarStyle = {
   display: 'inline-block',
-  verticalAlign: 'top'
+  verticalAlign: 'top',
+  paddingRight: '10px'
 };
 //# sourceMappingURL=index.js.map
