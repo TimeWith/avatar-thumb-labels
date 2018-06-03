@@ -1,6 +1,6 @@
 {
   "name": "@time-with/avatar-thumb-labels",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Avatar thumbnail display with text-based fallback, including labels",
   "main": "dist/index.js",
   "license": "MIT",
@@ -10,7 +10,7 @@
     "postpack": "rm -rf node_modules"
   },
   "dependencies": {
-    "@time-with/avatar-thumb": "^1.0.1",
+    "@time-with/avatar-thumb": "^1.0.2",
     "glamorous": "^4.11.6"
   },
   "devDependencies": {

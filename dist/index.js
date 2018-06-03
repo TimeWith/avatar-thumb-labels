@@ -134,6 +134,6 @@ var TextDIV = _glamorous2.default.div({
 var avatarStyle = {
   display: 'inline-block',
   verticalAlign: 'top',
-  paddingRight: '10px'
+  marginRight: '10px'
 };
 //# sourceMappingURL=index.js.map

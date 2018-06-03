@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@time-with/avatar-thumb@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@time-with/avatar-thumb/-/avatar-thumb-1.0.1.tgz#01fce02d6d1befe83092414d8a038dea8f3ec32d"
+"@time-with/avatar-thumb@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/@time-with/avatar-thumb/-/avatar-thumb-1.0.2.tgz#1ed9e5a4e4bb468c41d995d84436044c5517ed36"
   dependencies:
     glamorous "^4.11.6"
 
