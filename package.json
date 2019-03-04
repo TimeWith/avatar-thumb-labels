@@ -12,7 +12,7 @@
   "peerDependencies": {
     "@emotion/core": "^10.0.7",
     "@emotion/styled": "^10.0.7",
-    "@time-with/avatar-thumb": "^1.0.2",
+    "@time-with/avatar-thumb": "^1.0.2"
   },
   "devDependencies": {
     "babel-plugin-emotion": "^10.0.7",

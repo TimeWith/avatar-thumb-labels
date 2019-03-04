@@ -10,9 +10,9 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _glamorous = require('glamorous');
+var _styled = require('@emotion/styled');
 
-var _glamorous2 = _interopRequireDefault(_glamorous);
+var _styled2 = _interopRequireDefault(_styled);
 
 var _avatarThumb = require('@time-with/avatar-thumb');
 
@@ -65,7 +65,7 @@ var AvatarThumbLabels = function (_Component) {
         color = '#7D7B7B';
       }
 
-      var FirstLabel = _glamorous2.default.p({
+      var FirstLabel = _styled2.default.p({
         color: color + ' !important',
         display: 'block !important',
         marginTop: '2px !important',
@@ -76,7 +76,7 @@ var AvatarThumbLabels = function (_Component) {
         textAlign: 'left !important'
       });
 
-      var SecondLabel = _glamorous2.default.p(_defineProperty({
+      var SecondLabel = _styled2.default.p(_defineProperty({
         color: color + ' !important',
         display: 'block !important',
         fontSize: '14px !important',
@@ -121,12 +121,12 @@ var AvatarThumbLabels = function (_Component) {
 exports.default = AvatarThumbLabels;
 
 
-var RootDIV = _glamorous2.default.div({
+var RootDIV = _styled2.default.div({
   display: 'inline-block',
   verticalAlign: 'top'
 });
 
-var TextDIV = _glamorous2.default.div({
+var TextDIV = _styled2.default.div({
   display: 'inline-block',
   verticalAlign: 'top'
 });
