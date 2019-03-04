@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import glamorous from 'glamorous'
+import styled from '@emotion/styled'
 import AvatarThumb from '@time-with/avatar-thumb'
 
 export default class AvatarThumbLabels extends Component {
@@ -14,7 +14,7 @@ export default class AvatarThumbLabels extends Component {
     if (!radius) { radius = '45px'}
     if (!color) { color = '#7D7B7B'}
 
-    const FirstLabel = glamorous.p({
+    const FirstLabel = styled.p({
       color: `${color} !important`,
       display: 'block !important',
       marginTop: '2px !important',
@@ -25,7 +25,7 @@ export default class AvatarThumbLabels extends Component {
       textAlign: 'left !important',
     })
 
-    const SecondLabel = glamorous.p({
+    const SecondLabel = styled.p({
       color: `${color} !important`,
       display: 'block !important',
       fontSize: '14px !important',
@@ -56,12 +56,12 @@ export default class AvatarThumbLabels extends Component {
 }
 
 
-const RootDIV = glamorous.div({
+const RootDIV = styled.div({
   display: 'inline-block',
   verticalAlign: 'top',
 })
 
-const TextDIV = glamorous.div({
+const TextDIV = styled.div({
   display: 'inline-block',
   verticalAlign: 'top',
 })
